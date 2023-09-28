@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+}
+
+#navBar{
+    display: block;
+    background-color: lightblue;
+    height: 110px;
+    margin-bottom: 10px;
+}
+
+.workNav{
+    padding: 10px;
+}
+
+#heading{
+    text-align: center;
+    background-color: aqua;
+}
+.box{
+    max-width: 400px;
+    color: white;
+    border-radius: 5px;
+    margin: 50px auto;
+}
+
+.form{
+    text-align: center;
+    margin: 50px auto;
+}
+
+.footer{
+    background-color: aqua; 
+    color: white; 
+    padding: 20px 0; 
+    text-align: center; 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+}
+
+.workHeading{
+    display: block;
+    height: 80px;
+    margin-top: 0;
+    padding-top: 50px;
+}

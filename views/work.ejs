@@ -1,0 +1,19 @@
+<%- include("partials/header.ejs") %>
+
+<div id="heading">
+<h1 class="workHeading">Work List</h1>
+</div>
+
+<div class="form">
+    <form action="/work" method="POST">
+        <input type="text" name="neWItem" placeholder="Add a new item" required>
+        <button type="submit">Add</button>
+      </form>
+
+    <ul>
+        <% for(let item of todoiTems) { %>
+          <li><%= item %></li>
+        <% } %>
+      </ul>
+</div>
+<%- include("partials/footer.ejs") %>
